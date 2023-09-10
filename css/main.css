@@ -33,14 +33,14 @@ Section css
 /* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
 e 10px de altura para a barra horizontal */
 ::-webkit-scrollbar {
-  width:10px;
+  width: 10px;
   height: 10px;
-  }
-   
-  /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
-  ::-webkit-scrollbar-track {
-  background:#31044a;
-  }
+}
+
+/* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+::-webkit-scrollbar-track {
+  background: #31044a;
+}
 
 body {
   color: var(--white-color);
@@ -563,7 +563,7 @@ p {
   z-index: 999999;
   transition: all 0.9s;
   background-color: rgb(245, 244, 255);
-  box-shadow: 0px -31px 32px 9px #234DD4;
+  box-shadow: 0px -31px 32px 9px #234dd4;
 }
 
 .header-wrapper {
@@ -579,7 +579,7 @@ p {
   height: auto;
 }
 .header-wrapper .logo-menu img {
-  width: 100%;
+  width: 50%;
   height: 100%;
   object-fit: contain;
 }
@@ -1642,7 +1642,12 @@ p {
   transform: translateY(-50%);
   right: 15px;
 }
-.faq-left-wrapper .accordion-item .accordion-header .accordion-button .icon img {
+.faq-left-wrapper
+  .accordion-item
+  .accordion-header
+  .accordion-button
+  .icon
+  img {
   width: 21px;
   object-fit: contain;
 }
@@ -1658,7 +1663,12 @@ p {
   transform: translateY(-50%);
   right: 15px;
 }
-.faq-left-wrapper .accordion-item .accordion-header .accordion-button .plus img {
+.faq-left-wrapper
+  .accordion-item
+  .accordion-header
+  .accordion-button
+  .plus
+  img {
   width: 21px;
   object-fit: contain;
 }
@@ -1862,10 +1872,19 @@ p {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
-.blog-details-wrapper .details-content .details-box-one .date-wrapper .detail-date {
+.blog-details-wrapper
+  .details-content
+  .details-box-one
+  .date-wrapper
+  .detail-date {
   margin: 0 0 10px;
 }
-.blog-details-wrapper .details-content .details-box-one .date-wrapper .detail-date span {
+.blog-details-wrapper
+  .details-content
+  .details-box-one
+  .date-wrapper
+  .detail-date
+  span {
   color: var(--theme-color);
   font-size: 18px;
 }
@@ -1873,10 +1892,21 @@ p {
   display: flex;
   align-items: center;
 }
-.blog-details-wrapper .details-content .details-box-one .date-wrapper .social li:not(:last-child) {
+.blog-details-wrapper
+  .details-content
+  .details-box-one
+  .date-wrapper
+  .social
+  li:not(:last-child) {
   margin-right: 10px;
 }
-.blog-details-wrapper .details-content .details-box-one .date-wrapper .social li .icon {
+.blog-details-wrapper
+  .details-content
+  .details-box-one
+  .date-wrapper
+  .social
+  li
+  .icon {
   width: 34px;
   height: 34px;
   line-height: 34px;
@@ -1887,10 +1917,23 @@ p {
   display: block;
   border-radius: 4px;
 }
-.blog-details-wrapper .details-content .details-box-one .date-wrapper .social li .icon:hover {
+.blog-details-wrapper
+  .details-content
+  .details-box-one
+  .date-wrapper
+  .social
+  li
+  .icon:hover {
   background: var(--button-color);
 }
-.blog-details-wrapper .details-content .details-box-one .date-wrapper .social li .icon:hover i {
+.blog-details-wrapper
+  .details-content
+  .details-box-one
+  .date-wrapper
+  .social
+  li
+  .icon:hover
+  i {
   color: var(--white-color);
 }
 .blog-details-wrapper .details-content .details-box-one .section-header h2 {
@@ -1902,7 +1945,11 @@ p {
 .blog-details-wrapper .details-content .details-box-one .section-header .text1 {
   margin-bottom: 25px;
 }
-.blog-details-wrapper .details-content .details-box-one .section-header .text25 {
+.blog-details-wrapper
+  .details-content
+  .details-box-one
+  .section-header
+  .text25 {
   margin-bottom: 13px;
 }
 .blog-details-wrapper .details-content .details-box-one .section-header-two {
@@ -1913,7 +1960,11 @@ p {
   font-size: 18px;
   font-weight: 500;
 }
-.blog-details-wrapper .details-content .details-box-one .list li:not(:last-child) {
+.blog-details-wrapper
+  .details-content
+  .details-box-one
+  .list
+  li:not(:last-child) {
   margin-bottom: 8px;
 }
 .blog-details-wrapper .details-content .details-box-one h5 {
@@ -1955,7 +2006,12 @@ p {
 .blog-details-wrapper .founder-profile .profile-content .cont .designation h6 {
   font-weight: 600;
 }
-.blog-details-wrapper .founder-profile .profile-content .cont .designation .desig {
+.blog-details-wrapper
+  .founder-profile
+  .profile-content
+  .cont
+  .designation
+  .desig {
   font-weight: 500;
   color: var(--pragraph-color);
 }
@@ -1963,7 +2019,12 @@ p {
   display: flex;
   align-items: center;
 }
-.blog-details-wrapper .founder-profile .profile-content .cont .social li:not(:last-child) {
+.blog-details-wrapper
+  .founder-profile
+  .profile-content
+  .cont
+  .social
+  li:not(:last-child) {
   margin-right: 10px;
 }
 .blog-details-wrapper .founder-profile .profile-content .cont .social li .icon {
@@ -1978,13 +2039,32 @@ p {
   border-radius: 4px;
   transition: all 0.3s;
 }
-.blog-details-wrapper .founder-profile .profile-content .cont .social li .icon:hover {
+.blog-details-wrapper
+  .founder-profile
+  .profile-content
+  .cont
+  .social
+  li
+  .icon:hover {
   background: var(--button-color);
 }
-.blog-details-wrapper .founder-profile .profile-content .cont .social li .icon:hover i {
+.blog-details-wrapper
+  .founder-profile
+  .profile-content
+  .cont
+  .social
+  li
+  .icon:hover
+  i {
   color: var(--white-color);
 }
-.blog-details-wrapper .founder-profile .profile-content .cont .social li .icon:hover {
+.blog-details-wrapper
+  .founder-profile
+  .profile-content
+  .cont
+  .social
+  li
+  .icon:hover {
   border-color: var(--button-color);
 }
 
@@ -2716,7 +2796,11 @@ p {
   .blog-details-wrapper .details-content {
     padding: 35px 0px;
   }
-  .blog-details-wrapper .details-content .details-box-one .section-header .text1 {
+  .blog-details-wrapper
+    .details-content
+    .details-box-one
+    .section-header
+    .text1 {
     margin-bottom: 10px;
   }
   .blog-details-wrapper .details-content .details-box-one .section-header-two {
@@ -2756,10 +2840,10 @@ p {
     margin-top: -20px;
   }
   .rendering-shape1,
-.rendering-shape2,
-.rendering-shape3,
-.rendering-shape4,
-.rendering-shape5 {
+  .rendering-shape2,
+  .rendering-shape3,
+  .rendering-shape4,
+  .rendering-shape5 {
     display: none;
   }
   .nice-space {
@@ -2774,7 +2858,11 @@ p {
   .blog-details-wrapper .details-content .details-box-one .date-wrapper {
     margin-bottom: 25px;
   }
-  .blog-details-wrapper .details-content .details-box-one .section-header .text1 {
+  .blog-details-wrapper
+    .details-content
+    .details-box-one
+    .section-header
+    .text1 {
     margin-bottom: 10px;
   }
   .blog-details-wrapper .details-content .details-box-one .section-header-two {
@@ -2814,8 +2902,8 @@ p {
     margin-right: 10px;
   }
   .error-section .error1,
-.error-section .error2,
-.error-section .error3 {
+  .error-section .error2,
+  .error-section .error3 {
     display: none;
   }
   .faq-left-wrapper .accordion-item .accordion-header .accordion-button .icon {
@@ -2896,8 +2984,8 @@ p {
     margin-bottom: 5px;
   }
   .result-thumb .result1,
-.result-thumb .result2,
-.result-thumb .result3 {
+  .result-thumb .result2,
+  .result-thumb .result3 {
     width: 60px;
     height: 60px;
   }
@@ -2995,7 +3083,11 @@ p {
   }
 }
 @media screen and (max-width: 450px) {
-  .packages-section .protfolio-items.touch-items .protfolio-thumb .article-btn .cmn--btn {
+  .packages-section
+    .protfolio-items.touch-items
+    .protfolio-thumb
+    .article-btn
+    .cmn--btn {
     padding: 4px 15px;
   }
 }
@@ -3142,4 +3234,4 @@ p {
   .footer-bottom .footer-bottom-link li a {
     font-size: 16px;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
