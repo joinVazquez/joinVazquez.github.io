@@ -1,0 +1,52 @@
+/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
+e 10px de altura para a barra horizontal */
+::-webkit-scrollbar {
+    width:10px;
+    height: 10px;
+    }
+     
+    /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+    ::-webkit-scrollbar-track {
+    background:rgb(81, 81, 81);
+    }
+     
+    /* aqui é a alça da barra, que demonstra a altura que você está na página
+    estou colocando uma cor azul clara nela*/
+    ::-webkit-scrollbar-thumb {
+    background: #ab26dc;
+    }
+
+   
+    .page-loader-variant-1 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 25px;
+        z-index: 9999999;
+        background: #61157c;
+        transition: .3s all ease;
+    }
+
+    .thumbnail-josip figure figcaption, .thumbnail-josip figcaption {
+        height: 72px;
+        background: #61157c;
+        color: white;
+        
+    }
+
+    .icon-darker-filled {
+        background: #ab26dc;
+    }
+    
+
+    .pagination-classic>li+li:not(:last-child).active>a, .pagination-classic>li+li:not(:last-child).active>span {
+        color: #fff;
+        background: #ab26dc;
+        border-color: #ab26dc;
+        cursor: default;
+    }

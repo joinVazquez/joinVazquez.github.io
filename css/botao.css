@@ -1,0 +1,33 @@
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #7c05b9;
+    margin-top: 5%;
+    border-color: #7c05b9;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #2a0058;
+    border-color: #2a0058;;
+    
+}
+
+.navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
+  display: flex;
+  align-items: center;
+  justify-content: normal; 
+  flex-wrap: nowrap;
+  
+}
+
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  list-style: none;
+}
