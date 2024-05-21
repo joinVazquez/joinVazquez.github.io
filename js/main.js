@@ -173,5 +173,12 @@ $(document).ready(function () {
 	
 });
 
+let message = document.getElementById('message');
+let isVisible = true;
+
+setInterval(() => {
+    isVisible = !isVisible;
+    message.style.opacity = isVisible ? 1 : 0;
+}, 500); // Muda a opacidade a cada 500ms para criar o efeito de piscar
 
 
